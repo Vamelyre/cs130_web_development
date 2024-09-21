@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+    <style>
+    
+        body{
+            font-family: Arial, Helvetica, sans-serif
+        }
+        .head {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding: 3em, 3em, 2em, 2em;
+            font-size: 1.5em;
+            background-color: rgb(244, 244, 244);
+        }
+        a {
+            margin: 0.9em;
+            color: rgb(255, 123, 143);
+            text-decoration: none;
+        }
+        a:active {
+            color: rgb(255, 28, 62);
+        }
+
+        table {
+            padding: 2em;
+            margin: 3.5em;
+            width: 75em;
+            height: 6em;
+            text-align: center;
+            border-collapse: collapse;
+            border-color: white;
+        }
+        th, tr {
+            border-bottom: 1px solid #ddd;
+    
+        }
+        .row1{
+            height: 1.5em;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 600;
+            background-color: rgb(227, 227, 227);
+        }
+        .table {
+            display: flex;
+            justify-content: center;
+        }
+        tr:hover{
+            background-color: rgb(236, 236, 236);
+        }
+         #gmail {
+            font-family: cursive;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <a href="./index.html">Home</a>
+        <a href="./gmail.html" id="gmail">Gmail</a>
+        <a href="./video.html">Video</a>
+        <a href="video_table.html">Video Table</a>
+    </div>
+
+
+    <div class="table">
+        <table border="1">
+           <tr class="row1">
+            <td></td>
+            <td>Monday</td>
+            <td>Tuesday</td>
+            <td>Wednesday</td>
+            <td>Thursday</td>
+            <td>Friday</td>
+            <td>Saturday</td>
+            <td>Sunday</td>
+           </tr>
+           <tr>
+            <td>Breakfast</td>
+            <td>7:00am - 10:00am</td>
+            <td>7:00am - 10:00am</td>
+            <td>7:00am - 10:00am</td>
+            <td>7:00am - 10:00am</td>
+            <td>7:00am - 10:00am</td>
+            <td>7:00am - 10:00am</td>
+            <td>7:00am - 10:00am</td>
+           </tr>
+           <tr>
+            <td>Lunch</td>
+            <td>11:30am 2:30pm</td>
+            <td>11:30am 2:30pm</td>
+            <td>11:30am 2:30pm</td>
+            <td>11:30am 2:30pm</td>
+            <td>11:30am 2:30pm</td>
+            <td>11:30am 2:30pm</td>
+            <td>11:30am 2:30pm</td>
+           </tr>
+        </table>
+    </div>
+
+</body>
+</html>
