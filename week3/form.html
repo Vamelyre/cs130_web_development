@@ -1,1 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        form, input, label {
+           margin: auto;
+           
+        }
+       
+        *{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+        }
+        .form {
+            display: flex;
+            justify-content: center;
+        }
+        input {
+            margin: 1.4em;
+        }
+        textarea {
+            vertical-align: top;
+            margin-left: 22px;
+        }
+        button > #options {
+            padding: 0.4em;
+        }
+        .random {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="form"></div>
+        <form>
+            <label for="">Username:</label>
+            <input type="text" maxlength="16" placeholder="Username">
+            
+            <div id="passpord">
+                <label for="">Password:</label>
+                <input type="password" minlength="8" maxlength="32" placeholder="Password">
+            </div>
 
+            <div id="extra_text">
+                <label for="">More text:</label>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+            </div>
+            <hr>
+            <div id="favourite_lang">
+                <p>Please select programming languages you know:</p>
+                <input type="radio" value="html">
+                <label for="html">HTML</label>
+                <input type="radio" value="css">
+                <label for="css">CSS</label>
+                <input type="radio" value="Javascript">
+                <label for="Javascript">Javascript</label>
+
+            </div>
+            <hr>
+            <div id="checkbox1">
+                <input type="checkbox">
+                <label for="">Lecture 1</label>
+            </div>
+
+            <div id="checkbox2">
+                <input type="checkbox">
+                <label for="">Lecture 2</label>
+            </div>
+            <hr>
+            <div id="uploading_files">
+                <label for="">Upload:</label>
+                <input type="file">
+            </div>
+            <hr>
+            <div id="options">
+                <label for="">Select your favourite language: </label>
+                <select name="" id="">
+                    <option value="">HTML</option>
+                    <option value="">CSS</option>
+                    <option value="">Javascript</option>
+                </select>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            
+            </div>
+
+            <fieldset>
+                <legend>Contact information:</legend>
+                <label for="">Email address:</label>
+                <input type="tel">
+                <label ></label>
+
+            </fieldset>
+
+            <div class="random">
+                <input type="color" value="#37a4ff" id="color">
+                <input type="date">
+                <input type="range">
+            </div>
+
+            <div class="random2">
+                <input type="number" placeholder="Number">
+                <input type="search" placeholder="Search">
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
